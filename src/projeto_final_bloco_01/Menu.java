@@ -3,6 +3,10 @@ package projeto_final_bloco_01;
 import java.io.IOException;
 import java.util.Scanner;
 
+import projeto_final_bloco_01.model.Produto;
+import projeto_final_bloco_01.model.XicaraCeramica;
+import projeto_final_bloco_01.model.XicaraPlastico;
+
 public class Menu {
 	public static void main(String[] args) {
 
@@ -10,6 +14,14 @@ public class Menu {
 
 		int opcao;
 
+		//Testee
+		
+		XicaraPlastico xp1 = new XicaraPlastico(1, "Xícara de bolinhas estilo 1950", 1, 15.99f, "Vermelho e branco");
+		xp1.visualizar();
+		
+		XicaraCeramica xc1 = new XicaraCeramica(2, "Xícara oriental", 2, 18.99f, "Frágil");
+		xc1.visualizar();
+		
 		while (true) {
 
 			System.out.println("*****************************************************");
