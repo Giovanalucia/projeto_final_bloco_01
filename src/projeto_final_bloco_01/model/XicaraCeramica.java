@@ -22,7 +22,7 @@ public class XicaraCeramica extends Produto {
 	@Override
 	public void visualizar() {
 		super.visualizar();
-		System.out.println("Tipo da durabilidade do produto: " + this.durabilidade);
+		System.out.println("Tipo da durabilidade da Xícara: " + this.durabilidade);
 	}
 
 }

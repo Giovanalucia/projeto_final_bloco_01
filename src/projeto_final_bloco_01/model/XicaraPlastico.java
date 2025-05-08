@@ -20,7 +20,7 @@ public class XicaraPlastico extends Produto {
 	@Override
 	public void visualizar() {
 		super.visualizar();
-		System.out.println("Nome da cor do produto: " + this.cor);
+		System.out.println("Nome da cor da Xícara: " + this.cor);
 	}
 
 }
